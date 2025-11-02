@@ -19,6 +19,7 @@ namespace Tyuiu.SivolapEM.Sprint5.Task1.V24.Lib
                 if (4*x-0.5 != 0)
                 {
                     y = 3*Math.Cos(x) / (4*x-0.5) + Math.Sin(x) - 5*x - 2;
+                    y = Math.Round(y, 2);
                     strY = Convert.ToString(y);
                 }
                 else
