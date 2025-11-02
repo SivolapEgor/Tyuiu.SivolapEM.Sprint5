@@ -14,7 +14,7 @@ namespace Tyuiu.SivolapEM.Sprint5.Task4.V4.Lib
             string strX = File.ReadAllText(path);
             double x = double.Parse(strX, info);
             double res = 0.25 * x / Math.Cos(x);
-            return res;
+            return Math.Round(res, 3);
         }
     }
 }
